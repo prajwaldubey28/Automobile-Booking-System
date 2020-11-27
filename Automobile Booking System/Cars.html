@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/residence.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body">
+
+    <div class="header">
+        <h1>The King's Auto</h1>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <a href="Home.html">Home</a>
+        <a href="Cars.html">Cars</a>
+        <a href="Booking.html">Booking</a>
+        <a class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+    </div>
+
+    <div class="rooms">
+        <h1 style="color:black;text-align:center;">New Cars</h1>
+        <div class="block1">
+            <div class="img"><img src="img/3-bedroom-layout.png" width="185" height="120"></div>
+            <div class="details">
+                <p style="font-family:Arial;">Coupe(Black Jaguar)<br><h3>Price:Starting from 62 Lakhs</h3></p>
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;float:right;">Details</button>
+            </div>
+        </div>
+        <div class="block1">
+            <div class="img"><img src="img/apartment-layouts.png" width="185"></div>
+            <div class="details">
+                <p style="font-family:Arial;">Sedan(Toyota)<br><h3>Price:Starting From 10 Lakhs</h3></p>
+                <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;float:right;">Details</button>
+            </div>
+        </div>
+        <div class="block1">
+            <div class="img"><img src="img/5bhk.jpg" width="185" height="120"></div>
+            <div class="details">
+                <p style="font-family:Arial;">Convertible(Audi A3)<br><h3>Price:Starting from Rs 38.9 Lakhs /h3></p>
+                <button onclick="document.getElementById('id03').style.display='block'" style="width:auto;float:right;">Details</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="rooms">
+        <h1 style="color:black;text-align:center;">Second-Hand Cars</h1>
+        <div class="block1">
+            <div class="img"><img src="img/second1.jpg" width="185px" height="120"></div>
+            <div class="details">
+                <p style="font-family:Arial;">Wagon R<br><h3>Price: Starting from Rs 1.5 Lakhs</h3></p>
+                <button onclick="document.getElementById('id04').style.display='block'" style="width:auto;float:right;">Details</button>
+            </div>
+        </div>
+        <div class="block1">
+            <div class="img"><img src="img/second2.jpg" width="185px"></div>
+            <div class="details">
+                <p style="font-family:Arial;">BMW 3series<br><h3>Price: Starting from Rs 10.75 Lakhs</h3></p>
+                <button onclick="document.getElementById('id05').style.display='block'" style="width:auto;float:right;">Details</button>
+            </div>
+        </div>
+        <div class="block1">
+            <div class="img"><img src="img/5bhk.jpg" width="185" height="120"></div>
+            <div class="details">
+                <p style="font-family:Arial;">Audi<br><h3>Price:Starting from Rs 20 Lakhs </h3></p>
+                <button onclick="document.getElementById('id06').style.display='block'" style="width:auto;float:right;">Details</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="id01" class="modal ">
+        <div class="modal-content animate">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <table>
+                <col width="200">
+                <tr>
+                    <td>Description:</td>
+                    <td colspan="2">A coupe has historically been considered a two-door car with a trunk and a solid roof. This would include cars like a Ford Mustang or Audi A5—or even two-seat sports cars like the Chevrolet Corvette and Porsche Boxster. Recently, however, car companies have started to apply the word "coupe" to four-door cars or crossovers with low, sleek rooflines that they deem "coupe-like." This includes vehicles as disparate as a Mercedes-Benz CLS sedan and BMW X6 SUV. At Car and Driver, we still consider a coupe to be a two-door car.</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>Price:Starting from Rs 62 Lakhs</td>
+                </tr>
+                
+                
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td style="padding-top:0px;">
+                        Amenities:
+                    </td>
+                    <td>
+                        <table>
+                            
+                            <col width="250">
+                            <tr>
+                                <td> Cushioned Air Bag</td>
+                                <td>AI Based Parking and Proximity Guide</td>
+                                <td>Special seats</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+            </table>
+            <a href="Booking.html"><button>Book Now</button></a>
+        </div>
+    </div>
+    <div id="id02" class="modal">
+        <div class="modal-content animate">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <table>
+                <col width="200">
+                <tr>
+                    <td>Description:</td>
+                    <td colspan="2">A sedan has four doors and a traditional trunk. Like vehicles in many categories, they're available in a range of sizes from small (subcompact vehicles like Nissan Versa and Kia Rio) to compacts (Honda Civic, Toyota Corolla) to mid-size (Honda Accord, Nissan Altima), and full-size (Toyota Avalon, Dodge Charger). Luxury brands like Mercedes-Benz and Lexus have sedans in similar sizes as well.</td> </td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>Starting From Rs 10 Lakhs</td>
+                </tr>
+               
+                
+                
+                <tr><td colspan="2"><hr></tr>
+                <tr>
+                    <td style="padding-top:0px;">
+                        Amenities:
+                    </td>
+                    <td>
+                        <table>
+                            
+                            <col width="250">
+                            <tr>
+                                <td> Cushioned Air Bag</td>
+                                <td>AI Based Parking and Proximity Guide</td>
+                                <td>Special seats</td>
+                            </tr>
+                            <col width="250">
+                            <tr>
+                                <td> High-Tech Based System</td>
+
+                            </tr>
+                            
+                        </table>
+                    </td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+            </table>
+            <a href="Booking.html"><button>Book Now</button></a>
+        </div>
+    </div>
+    <div id="id03" class="modal">
+        <div class="modal-content animate">
+            <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <table>
+                <col width="200">
+                <tr>
+                    <td>Description:</td>
+                    <td colspan="2">Does the roof retract into the body leaving the passenger cabin open to the elements? If so, it's a convertible. Most convertibles have a fully powered fabric roof that folds down, but a few have to be lowered by hand. There are also a number of models with a retractable hardtop, as well as several unusual quasi-convertibles (called "targa tops") like the Mazda MX-5 Miata RF, Porsche 911 Targa and Corvette; only the forward section of their roofs retracts or can be removed by hand. </td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>Starting from Rs 38.9 lakhs</td>
+                </tr>
+                
+                
+                
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td style="padding-top:0px;">
+                        Amenities:
+                    </td>
+                    <td>
+                        <table>
+                            <col width="250">
+                            <tr>
+                                <td> Cushioned Air Bag</td>
+                                <td>AI Based Parking and Proximity Guide</td>
+                                <td>Special seats</td>
+                            </tr>
+                            <col width="250">
+                            <tr>
+                                <td> High-Tech Based System</td>
+                                <td>Retractible Roofs</td>
+
+                            </tr>
+                            
+                        </table>
+                    </td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+            </table>
+            <a href="Booking.html"><button>Book Now</button></a>
+        </div>
+    </div>
+    <div id="id04" class="modal">
+        <div class="modal-content animate">
+            <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <table>
+                <col width="200">
+                <tr>
+                    <td>Description:</td>
+                    <td colspan="2">The Maruti Wagon R has 2 Petrol Engine and 1 CNG Engine on offer. The Petrol engine is 998 cc and 1197 cc while the CNG engine is 998 cc. It is available with the Manual and Automatic transmission. Depending upon the variant and fuel type the Wagon R has a mileage of 20.52 kmpl to 32.52 km/kg. The Wagon R is a 5 seater Hatchback and has a length of 3655 mm </td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>Starting from Rs 1.5 Lakhs</td>
+                </tr>
+                
+                
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td style="padding-top:0px;">
+                        Amenities:
+                    </td>
+                    <td>
+                        <table>
+                            
+                            <col width="250">
+                            <tr>
+                                <td> Cushioned Air Bag</td>
+                                
+                                <td>Special seats</td>
+                            </tr>
+                        </table>
+                    </td>
+                <tr><td colspan="2"><hr></td></tr>
+            </table>
+            <a href="Booking.html"><button>Book Now</button></a>
+        </div>
+    </div>
+    <div id="id05" class="modal">
+        <div class="modal-content animate">
+            <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <table>
+                <col width="200">
+                <tr>
+                    <td>Description:</td>
+                    <td colspan="2">The BMW 3 Series is a compact executive car manufactured by the German automaker BMW since May 1975. It is the successor to the 02 Series and has been produced in seven different generations.
+
+                    The first generation of the 3 Series was only available as a 2-door coupé; however, the model range has since expanded to include a 4-door saloon, 2-door convertible, 2-door coupé, 5-door estate, 5-door liftback ("Gran Turismo") and 3-door hatchback body styles. Since 2013, the coupé and convertible models have been marketed as the 4 Series; therefore, the 3 Series range no longer includes these body styles. </td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>Starting from Rs 10.75 Lakhs</td>
+                </tr>
+               
+               
+                
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td style="padding-top:0px;">
+                        Amenities:
+                    </td>
+                    <td>
+                            <table>
+                            
+                            <col width="250">
+                            <tr>
+                                <td> Cushioned Air Bag</td>
+                                <td>AI Based Parking and Proximity Guide</td>
+                                <td>Special seats</td>
+                            </tr>
+                            <col width="250">
+                            <tr>
+                                <td> High-Tech Based System</td>
+
+                            </tr>
+                            
+                        </table>
+                    </td>
+                </tr>
+                      
+                <tr><td colspan="2"><hr></td></tr>
+            </table>
+            <a href="Booking.html"><button>Book Now</button></a>
+        </div>
+    </div>
+    <div id="id06" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content animate">
+            <span onclick="document.getElementById('id06').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <table>
+                <col width="200">
+                <tr>
+                    <td>Description:</td>
+                    <td colspan="2">The Audi A6 is an executive car made by the German automaker Audi. Now in its fifth generation, the successor to the Audi 100 is manufactured in Neckarsulm, Germany, and is available in saloon and estate configurations, the latter marketed by Audi as the Avant. Audi's internal numbering treats the A6 as a continuation of the Audi 100 lineage, with the initial A6 designated as a member of the C4-series, followed by the C5, C6, C7, and the C8. The related Audi A7 is essentially a Sportback (fastback) version of the C7-series and C8-series A6 but is marketed under its own separate identity and model designation</td>
+                </tr>
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td>Price:</td>
+                    <td>Starting from Rs 20 Lakhs</td>
+                </tr>
+                
+                
+                
+                <tr><td colspan="2"><hr></td></tr>
+                <tr>
+                    <td style="padding-top:0px;">
+                        Amenities:
+                    </td>
+                    <td>
+                         <table>
+                            <col width="250">
+                            <tr>
+                                <td> Cushioned Air Bag</td>
+                                <td>AI Based Parking and Proximity Guide</td>
+                                <td>Special seats</td>
+                            </tr>
+                            <col width="250">
+                            <tr>
+                                <td> High-Tech Based System</td>
+                                <td>Retractible Roofs</td>
+
+                            </tr>
+                            
+                        </table>
+                    </td>
+                </tr>
+                        
+                <tr><td colspan="2"><hr></td></tr>
+            </table>
+            <a href="Booking.html"><button>Book Now</button></a>
+        </div>
+    </div>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3><span>The King's Auto</span></h3>
+
+            <p class="footer-links">
+                <a href="Home.html">Home</a>
+                |
+                <a href="#about">About</a>
+                |
+                <a href="Booking.html">Booking</a>
+            </p>
+
+            <p class="footer-company-name">@ The King's Auto pvt limited</p>
+            <br>
+            <p class="footer-company-name">Designed by: Prajwal Dubey  Siddharth Shukla  Ishant Sahu  </p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p>
+                    <span>
+                       Dr Annie Besant Rd, opp. Nehru Planetarium, Lotus Colony, Worli, Mumbai, Maharashtra 400018  
+                    </span>
+
+
+                </p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 8235486494</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="www.gmail.com">thekingsauto@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About</span>
+                The King's Auto is car dealership that aims to please all types of customers  
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        // Get the modal
+        var modal = document.getElementById('id01');
+        var modal = document.getElementById('id02');
+        var modal = document.getElementById('id03');
+        var modal = document.getElementById('id04');
+        var modal = document.getElementById('id05');
+        var modal = document.getElementById('id06');
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
+

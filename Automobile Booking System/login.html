@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/reg2.css">
+</head>
+<body>
+    
+    <div class="main-block">
+        <div class="left-part">
+            <h1>The KING'S AUTO</h1>
+        </div>
+
+        <form action="connect1.php" method="post" class="form">
+            <div class="title">
+                <i class="fas fa-pencil-alt"></i>
+                <h2>login here</h2>
+            </div>
+            <div class="info">
+                
+                <input id="data_8" type="text" placeholder="Username" name="uname" style="display:flex;width:100%;" required>
+                <input id="data_9" type="password" placeholder="password" name="pass" style="display:flex;width:100%;" required>
+
+
+               
+                
+            </div>
+            <div>
+            <button class="button" type="submit" href="Building.html" >Submit</button>
+            <a href="Signup.html"> Not Signed Up?</a> 
+            </div>
+
+        </form>
+    </div>
+
+    <script type="text/javascript">
+        function validateForm() {
+           
+            
+            if (isEmpty(document.getElementById('data_8').value.trim())) {
+                alert('username is required');
+                return false;
+            }
+
+            if (isEmpty(document.getElementById('data_9').value.trim())) {
+                alert('Password is required!');
+                return false;
+            }
+
+            
+        }
+        function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+
+       
+    </script>
+</body>
+</html>
