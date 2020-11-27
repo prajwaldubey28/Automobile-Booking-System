@@ -1,11 +1,11 @@
 # Automobile-Booking-System
 
-##1.2 Need of the project –
+## Need of the project –
 Various kinds of cars are available so user can make a choice
 of his own according to his need.He can get the information about various cars so that the
 customer can decide which car he/she wants.User also have the option of getting himself a Vintage car.
 
-##1.3 Scope –
+## Scope –
 As the world is taking a huge bend towards digitalisation, this
 portal will help them in making their best choice as per the needs
 and requirements as well as they can have a soulful experience
