@@ -12,3 +12,7 @@ and requirements as well as they can have a soulful experience
 of our services. The highlight of this project is that it gives the
 customer the freedom to analyse each aspect of our product and
 choose according to his/her requirements.
+
+##Contributors- 
+Prajwal Dubey
+Siddharth Shukla
