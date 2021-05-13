@@ -14,5 +14,5 @@ customer the freedom to analyse each aspect of our product and
 choose according to his/her requirements.
 
 ## Contributors- 
-Prajwal Dubey
-Siddharth Shukla
+Prajwal Dubey.
+Siddharth Shukla.
